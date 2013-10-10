@@ -40,7 +40,19 @@ public class atm {
 			} else if ( name = 1) {
 				alice.checkBalance;
 			} else {
-				jt.checkBalance
+				jt.checkBalance;
+			}
+		} else if ( imput == "Withdraw") {
+			System.out.println("Enter amount to Withdraw"); 
+			
+			double amount = reader.nextInt();
+
+			if (name = 0) {
+				bob.withdraw(amount);
+			} else if (name = 1) {
+				alice.withdraw(amount);
+			} else	{
+				jt.withdraw(amount);
 			}
 		}
 	}
