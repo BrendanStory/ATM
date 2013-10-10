@@ -30,7 +30,17 @@ public class Accounts {
 	}
 
 	public void changeName(String newName) {
-		
+		this.name = newName;
+		System.out.println("Name changed to: " + newName + ".");
+	}
+
+	public void changePin(int newPin) {
+		this.pin = newPin;
+		System.out.println("Pin changed to: " + newPin + ".");
+	}
+
+	public void logout() {
+		System.out.println("Thank you for banking for Science! <3");
 	}
 
 
