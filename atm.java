@@ -23,12 +23,25 @@ public class atm {
 		
 			
 		}
+
+		int name = 0;
 	}
 	public void commands() {
 
-		System.out.println("Select a Command: Check Balance");
+		System.out.println("Select a Command: Check Balance, Withdraw,
+		 Change Name, Change Pin");
 
 		String imput;
 		imput = reader.nextString();
+
+		if (imput == "Check Balance") {
+			if (name = 0) {
+				bob.checkBalance;
+			} else if ( name = 1) {
+				alice.checkBalance;
+			} else {
+				jt.checkBalance
+			}
+		}
 	}
 }
